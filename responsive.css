@@ -1,0 +1,39 @@
+@media (max-width:800px)
+{
+   .checkbtn
+   {
+       position: absolute;
+       display: block;
+   } 
+   nav ul 
+   {
+       position: absolute;
+       width: 50%;
+       height: 50%;
+       left:0px;
+       top:80px;
+       background: violet;
+       flex-direction: column;
+       transition: all 2s;
+       
+   }
+   nav ul li 
+   {
+     margin: 10px 0;
+   }
+   nav ul li a
+   {
+       font-size: 20px;
+
+    }
+    .conteneur
+    {
+    width: auto;
+    }
+    #check:checked ~ ul 
+    {
+        left: 0px;
+    }
+
+}
+ 
